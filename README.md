@@ -16,6 +16,7 @@ The current version takes information from specific servicedesk queue.
   - [Refresh xbarapp](#refresh-xbarapp)
 * [Execution screenshots](#execution-screenshots)
   - [No tickets to solve](#no-tickets-to-solve)
+  - [Tickets in progress](#tickets-in-progress)
   - [Tickets waiting for customer](#tickets-waiting-for-customer)
   - [Has tickets to solve](#has-tickets-to-solve)
 
@@ -61,6 +62,10 @@ Left-click the xbarapp and hit `Refresh all` in the `xbar` menu;
 ## Execution screenshots
 ### No tickets to solve
 ![image](https://user-images.githubusercontent.com/1873442/160581965-61bdd4e0-3ae4-4c1b-a3d2-b2f54dbee6b0.png)
+
+### Tickets in progress
+<img width="268" alt="image" src="https://user-images.githubusercontent.com/1873442/160601268-69d60277-54c4-4d72-8826-42e2305643b5.png">
+
 
 ### Tickets waiting for customer
 ![image](https://user-images.githubusercontent.com/1873442/160582012-bf677637-b788-416e-b184-b588cf2426ea.png)
