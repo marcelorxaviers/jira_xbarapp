@@ -14,6 +14,10 @@ The current version takes information from specific servicedesk queue.
   - [Make script executable](#make-script-executable)
   - [Link script to xbarapp](#link-script-to-xbarapp)
   - [Refresh xbarapp](#refresh-xbarapp)
+* [Execution screenshots](#execution-screenshots)
+  - [No tickets to solve](#no-tickets-to-solve)
+  - [Tickets waiting for customer](#tickets-waiting-for-customer)
+  - [Has tickets to solve](#has-tickets-to-solve)
 
 
 ## Configuration
@@ -53,3 +57,13 @@ Change the XBAR_PATH to the directory path where you did install your xbarapp.
 
 ### Refresh xbarapp
 Left-click the xbarapp and hit `Refresh all` in the `xbar` menu;
+
+## Execution screenshots
+### No tickets to solve
+![image](https://user-images.githubusercontent.com/1873442/160581965-61bdd4e0-3ae4-4c1b-a3d2-b2f54dbee6b0.png)
+
+### Tickets waiting for customer
+![image](https://user-images.githubusercontent.com/1873442/160582012-bf677637-b788-416e-b184-b588cf2426ea.png)
+
+### Has tickets to solve
+![image](https://user-images.githubusercontent.com/1873442/160582042-015c7bcc-07da-432d-be70-98b74cb52fb3.png)
