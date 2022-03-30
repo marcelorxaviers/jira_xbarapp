@@ -7,6 +7,7 @@ The current version takes information from specific servicedesk queue.
 ## Table of contents
 
 * [Configurarion](#configuration)
+  - [Ruby installation](#ruby-installation)
   - [Install xbarapp](#install-xbarapp)
   - [Create JIRA token](#create-jira-token)
   - [Set global environment variables](#set-global-environment-variables)
@@ -22,6 +23,8 @@ The current version takes information from specific servicedesk queue.
 
 
 ## Configuration
+### Ruby installation
+The script requires ruby (2.6.8+). You can find installation instructions [here](https://www.ruby-lang.org/en/documentation/installation/).
 ### Install xbarapp
 Follow the instructions in their [site](https://xbarapp.com/).
 
