@@ -10,7 +10,7 @@ The current version takes information from specific servicedesk queue.
   - [Ruby installation](#ruby-installation)
   - [Install xbarapp](#install-xbarapp)
   - [Create JIRA token](#create-jira-token)
-  - [Set global environment variables](#set-global-environment-variables)
+  - [Set environment variables](#set-environment-variables)
   - [Adapt script](#adapt-script)
   - [Make script executable](#make-script-executable)
   - [Link script to xbarapp](#link-script-to-xbarapp)
@@ -31,11 +31,19 @@ Follow the instructions in their [site](https://xbarapp.com/).
 ### Create JIRA token
 Go to token creation's [page](https://id.atlassian.com/manage-profile/security/api-tokens) and do it.
 
-### Set global environment variables
-In macos you can do the following:
+### Set environment variables
+In order to do that, you need to create a file inside the plugins folder with the same name of
+your script file ending with the vars.json extension, eg,
+`jira-attendance-support-tickets.1m.rb.vars.json`
 
-    launchctl setenv "JIRA_USER_EMAIL" EMAIL_USED_IN_JIRA
-    launchctl setenv "JIRA_API_TOKEN" JIRA_API_TOKEN_HERE
+The content of the file should be like:
+
+    {
+        "JIRA_API_TOKEN": "JIRA_API_TOKEN_HERE",
+        "JIRA_USER_EMAIL": "EMAIL_USED_IN_JIRA"
+    }
+
+Substitute the email value for your JIRA email address and the token for your own JIRA token value.
 
 ### Adapt script
 The script is fetching tickets from queue 18 at servicedesk 1.
