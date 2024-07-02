@@ -29,11 +29,11 @@ puts '---'
 puts 'No :ticket: to solve :tada:' if queue['size'].zero?
 
 queue['values'].each do |ticket|
+  url = "https://jobandtalent.atlassian.net/browse/#{ticket['key']}"
   if ticket.dig('fields', 'status', 'name').end_with?('support')
-    url = "https://jobandtalent.atlassian.net/browse/#{ticket['key']}"
     puts "#{ticket['key']} - #{ticket.dig('fields', 'summary')} | href=#{url} size=12"
   else
-    puts "#{ticket['key']} is #{ticket.dig('fields', 'status', 'name')}"
+    puts "#{ticket['key']} is #{ticket.dig('fields', 'status', 'name')} | href=#{url} size=12"
   end
   puts '---'
 end
